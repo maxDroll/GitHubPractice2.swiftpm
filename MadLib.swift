@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MadLib {
+class MadLib: ObservableObject{
     var noun = ""
     var verb = ""
     var adjective = ""

@@ -12,7 +12,7 @@ struct VerbView: View {
     var body: some View {
         NavigationStack{
             NavigationLink("Click me") {
-                AdjectiveView()
+                AdjectiveView(MadLib: $MadLib)
             }
             TextField("enter verb", text: $MadLib.verb)
         }
