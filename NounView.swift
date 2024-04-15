@@ -6,7 +6,7 @@ struct NounView: View {
         NavigationStack{
             TextField("Please Enter a Noun", text: $MadLib.noun)
             NavigationLink("Click me") {
-                VerbView(MadLib: MadLib)
+                VerbView(MadLib: $MadLib)
             }
             
         }
